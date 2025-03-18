@@ -1,0 +1,6 @@
+@CodeBro.Server_HostAddress = http://localhost:5242
+
+GET {{CodeBro.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

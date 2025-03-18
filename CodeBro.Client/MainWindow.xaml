@@ -1,0 +1,31 @@
+﻿<Window x:Class="CodeBro.Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CodeBro" Height="500" Width="900" Background="#1E1E1E">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button Content="Switch Theme" Click="SwitchTheme_Click" Padding="5,2" Background="#007ACC" Foreground="White" BorderThickness="0"/>
+        </StackPanel>
+
+        <Border Grid.Row="1" Background="#252526" CornerRadius="8" Padding="10" Margin="10">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                <RichTextBox x:Name="CodeEditor" 
+                             TextChanged="CodeEditor_TextChanged"
+                             AcceptsReturn="True"
+                             Background="#1E1E1E" 
+                             Foreground="#D4D4D4" 
+                             FontFamily="Consolas" 
+                             FontSize="14" 
+                             BorderThickness="0"
+                             Padding="10"
+                             VerticalScrollBarVisibility="Auto"
+                             HorizontalScrollBarVisibility="Auto"/>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Window>
