@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeBro.Client.Code_Recognision
 {
@@ -30,7 +27,7 @@ namespace CodeBro.Client.Code_Recognision
                         Console.WriteLine($"Token valid: {token.Value}");
                         break;
                     case TokenType.Error:
-                        Console.WriteLine($"Eroare de sintaxă la token: {token.Value}");
+                        Console.WriteLine($"Eroare de sintaxa la token: {token.Value}");
                         break;
                 }
                 position++;
