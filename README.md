@@ -2,6 +2,10 @@
 
 🚀 **CodeBro** is a collaborative programming environment built on .NET and SignalR, allowing multiple users to edit code together in real time. It's an ideal tool for development teams, pair programming sessions, or interactive coding lessons.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79c59469-c696-43fe-badb-eff2ddf90dd7" width="400">
+</p>
+
 ---
 
 ## 📌 Key Features
